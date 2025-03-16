@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    /* General Styling */
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color:rgb(255, 255, 255);
+    font-family: 'Lora', serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    background: rgb(236, 38, 217);
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 10%;
+    height: 100vh;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+.hero-text h1 span {
+    color: blue;
+}
+
+.hero-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: rgb(128, 84, 199);
+}
+
+
+.hero-image img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(165, 109, 109, 0.2);
+}
+
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+</style>
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 class="logo">Suprovo Proteet</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi,<br>I'm <span>Proteet</span></h1>
+            <h2>An Enterprenur 🐸</h2>
+            <p>Looking for a stunning, functional website? As an experienced web developer, I create tailored websites that perfectly match your business needs. From sleek designs to seamless functionality, I ensure your website is responsive, SEO-friendly, and fast. Let me help you stand out online—contact me today to get started!</p>
+            <a href="https://www.facebook.com/suprovo.protit" class="btn">Contact Us</a>
+            <div class="social-icons">
+                <a href="#"><img src="fb.jpg" alt="FB"></a>
+                
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="sohan.jpg" alt="Marlon">
+        </div>
+    </section>
+
+</body>
+</html>
